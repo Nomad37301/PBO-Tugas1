@@ -7,11 +7,11 @@ import java.util.Scanner;
 
 public class AuthService {
     // Hardcoded users
-    private static final String adminUsername = "admin";
-    private static final String adminPassword = "admin123";
+    private static final String adminUsername = "GungPur";
+    private static final String adminPassword = "Gungpur123";
 
-    private static final String custUsername = "customer";
-    private static final String custPassword = "cust123";
+    private static final String custUsername = "Jihan";
+    private static final String custPassword = "Jihan123";
 
     
 
