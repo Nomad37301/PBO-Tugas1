@@ -1,0 +1,9 @@
+package main;
+
+import menu.LoginMenu;
+
+public class Main {
+    public static void main(String[] args) {
+        LoginMenu.show();
+    }
+}
