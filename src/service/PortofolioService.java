@@ -14,9 +14,9 @@ public class PortofolioService {
         List<SahamOwned> sahamList = portofolio.getSahamList();
         List<SBNOwned> sbnList = portofolio.getSbnList();
 
-        System.out.println("=== PORTOFOLIO INVESTASI ===");
-
-        System.out.println("📈 Saham Dimiliki:");
+        System.out.println("|============= PORTOFOLIO INVESTASI =============|");
+        
+        System.out.println("Saham Dimiliki:");
         double totalBeli = 0, totalPasar = 0;
         for (SahamOwned so : sahamList) {
             double nilaiPasar = so.getSaham().getHarga() * so.getJumlah();
@@ -31,7 +31,7 @@ public class PortofolioService {
         }
         System.out.printf("Total Nilai Beli: Rp%.2f | Total Nilai Pasar: Rp%.2f\n", totalBeli, totalPasar);
 
-        System.out.println("\n🏦 SBN Dimiliki:");
+        System.out.println("\nSBN Dimiliki:");
         for (SBNOwned sbn : sbnList) {
             System.out.printf("- %s | Investasi: Rp%.2f | Kupon per bulan: Rp%.2f\n",
                     sbn.getSbn().getNama(),
