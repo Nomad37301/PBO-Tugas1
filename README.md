@@ -48,10 +48,21 @@ Setelah melakukan login sebagai admin, maka user akan diberi pilihan opsi pada m
 ![image](https://github.com/user-attachments/assets/ba0f6538-5a59-4e80-8348-6a59e857eeb4)
 Setelah melakukan login sebagai costumer, maka user akan diberi pilihan opsi pada menu costumer seperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka sesuai dengan kebutuhan
 
-## Saham 
+## Menu Saham 
 ![image](https://github.com/user-attachments/assets/815b0d14-83d0-4393-b6dc-d0c8de24039f)
+
 Ketika costumer memilih opsi saham, maka costumer akan di arahkan ke Menu Saham yang dimana costumer diberikan pilihan untuk melakukan pembelian saham atau menjual saham
 
+# Pembelian Saham 
+![image](https://github.com/user-attachments/assets/191e0bc4-c171-4336-9dcb-99ee01e32b6f)
+![image](https://github.com/user-attachments/assets/01c598d4-a883-42c3-8ce6-17f8a0106fa0)
 
+Costumer akan diberikan list saham aktif dengan informasi; Kode saham (contoh: BBRI), Nama emiten, Harga per lembar. Customer memilih saham dengan memasukkan nomor indeks (1, 2, atau 3). Yang dimana sebagai contoh jika customer memilih indeks 1, sistem akan memproses pembelian saham Bank BRI dengan harga Rp5000 per lembar. Lalu Costumer dapat memasukkan berapa banyak lembar saham yang ingin dibeli.
+
+# Penjualan Saham 
+![image](https://github.com/user-attachments/assets/63dee591-4294-4dcc-9e68-924dde9a1b6e)
+![image](https://github.com/user-attachments/assets/a918bd93-cd8e-45fb-9eed-bb3bc0b50951)
+
+Costumer dapat memilih opsi 2 untuk menjual saham milik mereka, Costumer dapat melihat saham apa saja yang sudah dimiliki dan dapat menginputkan saham yang mana dan seberapa banyak lembar saham yang akan dijual 
 
 
