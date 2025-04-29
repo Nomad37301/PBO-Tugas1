@@ -18,6 +18,7 @@ Fitur utama dari program kami adalah memberi kemampuan pada user yang memiliki 2
 - Menambah produk saham
 - Mengubah harga produk saham
 - Menambah produk SBN
+- Menghapus produk saham dan SBN
 
 ### 👤 Role: Customer
 - Login ke sistem (username: `Jihan`, password: `Jihan123`)
