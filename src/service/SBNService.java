@@ -79,4 +79,22 @@ public class SBNService {
             System.out.printf("%s - Kupon: Rp%.2f\n", sbn.getSbn().getNama(), sbn.hitungKuponBulanan());
         }
     }
+
+    public static void hapusSBN(Scanner scanner) {
+        List<SuratBerhargaNegara> list = Database.getSbnList();
+        if (list.isEmpty()) {
+            System.out.println("Belum ada produk SBN yang tersedia.");
+            return;
+        }
+
+        System.out.println("=== Daftar SBN ===");
+        for (int i = 0; i < list.size(); i++) {
+            System.out.printf("%d. %s\n", i + 1, list.get(i));
+        }
+
+        int index = MenuUtil.getIntegerInput(scanner, "Pilih indeks SBN untuk dihapus: ", 1, list.size());
+        SuratBerhargaNegara removed = list.remove(index - 1);
+        System.out.println("✅ SBN " + removed.getNama() + " berhasil dihapus.\n");
+    }
 }
+
