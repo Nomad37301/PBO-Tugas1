@@ -14,8 +14,8 @@ public class CustomerMenu {
             System.out.println("||=====================================================================||");
             System.out.println("||                            MENU CUSTOMER                            ||");
             System.out.println("||=====================================================================||");
-            System.out.println("|| 1. Beli Saham                                                       ||");
-            System.out.println("|| 2. Jual Saham                                                       ||");
+            System.out.println("|| 1. Saham                                                            ||");
+            System.out.println("|| 2. SBM                                                              ||");
             System.out.println("|| 3. Portofolio                                                       ||");
             System.out.println("|| 4. Logout                                                           ||");
             System.out.println("||=====================================================================||");
