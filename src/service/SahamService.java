@@ -76,7 +76,9 @@ public static void jualSaham(Scanner scanner, Customer customer) {
     List<SahamOwned> list = p.getSahamList();
 
     if (list.isEmpty()) {
-        System.out.println("Tidak ada saham yang dimiliki.");
+        System.out.println("||=====================================================================||");
+        System.out.println("||                      Tidak ada saham yang dimiliki.                 ||");
+        System.out.println("||=====================================================================||");
         return;
     }
 
@@ -109,7 +111,9 @@ public static void jualSaham(Scanner scanner, Customer customer) {
 }
 
 private static void tampilkanSaham(List<Saham> sahamList) {
-    System.out.println("Daftar Saham:");
+    System.out.println("||=====================================================================||");
+    System.out.println("||                             DAFTAR SAHAM                            ||");
+    System.out.println("||=====================================================================||");
     for (int i = 0; i < sahamList.size(); i++) {
         System.out.println((i + 1) + ". " + sahamList.get(i));
     }
@@ -122,7 +126,10 @@ private static void tampilkanSaham(List<Saham> sahamList) {
             return;
         }
 
-        System.out.println("=== Daftar Saham ===");
+
+        System.out.println("||=====================================================================||");
+        System.out.println("||                             DAFTAR SAHAM                            ||");
+        System.out.println("||=====================================================================||");
         for (int i = 0; i < list.size(); i++) {
             System.out.printf("%d. %s\n", i + 1, list.get(i));
         }

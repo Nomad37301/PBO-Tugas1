@@ -14,7 +14,9 @@ public class PortofolioService {
         List<SahamOwned> sahamList = portofolio.getSahamList();
         List<SBNOwned> sbnList = portofolio.getSbnList();
 
-        System.out.println("|============= PORTOFOLIO INVESTASI =============|");
+        System.out.println("||=====================================================================||");
+        System.out.println("||                         PORTOFOLIO INVESTASI                        ||");
+        System.out.println("||=====================================================================||");
         
         System.out.println("Saham Dimiliki:");
         double totalBeli = 0, totalPasar = 0;
