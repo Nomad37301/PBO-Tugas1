@@ -14,10 +14,12 @@ public class LoginMenu {
         User user = null;
         while (true) {
             MenuUtil.clearScreen();
-            System.out.println("|======= SISTEM INVESTASI =======|");
-            System.out.println("| 1. Login                       |");
-            System.out.println("| 2. Exit                        |");
-            System.out.println("|================================|");
+            System.out.println("||=====================================================================||");
+            System.out.println("||                           SISTEM INVESTASI                          ||");
+            System.out.println("||=====================================================================||");
+            System.out.println("|| 1. Login                                                            ||");
+            System.out.println("|| 2. Exit                                                             ||");
+            System.out.println("||=====================================================================||");
             System.out.print("Pilih: ");
             String input = scanner.nextLine();
 
@@ -26,7 +28,9 @@ public class LoginMenu {
                 user = AuthService.login(scanner);
 
                 if (user == null) {
-                    System.out.println("Login gagal!\n");
+                    System.out.println("||=====================================================================||");
+                    System.out.println("|| Login gagal!                                                        ||");
+                    System.out.println("||=====================================================================||");
                     MenuUtil.pressEnter(scanner);
                 } else {
                     if (user instanceof Admin) {

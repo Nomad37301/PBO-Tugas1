@@ -10,14 +10,16 @@ import java.util.Scanner;
 public class CustomerMenu {
     public static void showMenu(Scanner scanner, Customer customer) {
         while (true) {
-            System.out.println("\n|======= MENU CUSTOMER =======|");
-            System.out.println("| 1. Beli Saham               |");
-            System.out.println("| 2. Jual Saham               |");
-            System.out.println("| 3. Beli SBN                 |");
-            System.out.println("| 4. Simulasi SBN             |");
-            System.out.println("| 5. Portofolio               |");
-            System.out.println("| 6. Logout                   |");
-            System.out.println("|=============================|");
+            System.out.println("||=====================================================================||");
+            System.out.println("||                            MENU CUSTOMER                            ||");
+            System.out.println("||=====================================================================||");
+            System.out.println("|| 1. Beli Saham                                                       ||");
+            System.out.println("|| 2. Jual Saham                                                       ||");
+            System.out.println("|| 3. Beli SBN                                                         ||");
+            System.out.println("|| 4. Simulasi SBN                                                     ||");
+            System.out.println("|| 5. Portofolio                                                       ||");
+            System.out.println("|| 6. Logout                                                           ||");
+            System.out.println("||=====================================================================||");
 
             int pilihan = MenuUtil.getPilihan(scanner, 6);
             switch (pilihan) {
