@@ -44,7 +44,7 @@ public class CustomerMenu {
             System.out.println("||=====================================================================||");
             System.out.println("|| 1. Beli Saham                                                       ||");
             System.out.println("|| 2. Jual Saham                                                       ||");
-            System.out.println("|| 3. Logout                                                           ||");
+            System.out.println("|| 3. Kembali                                                          ||");
             System.out.println("||=====================================================================||");
 
             int pilihan = MenuUtil.getPilihan(scanner, 3);
@@ -74,7 +74,7 @@ public class CustomerMenu {
             System.out.println("||=====================================================================||");
             System.out.println("|| 1. Beli SBN                                                         ||");
             System.out.println("|| 2. Simulasi SBN                                                     ||");
-            System.out.println("|| 3. Logout                                                           ||");
+            System.out.println("|| 3. Kembali                                                          ||");
             System.out.println("||=====================================================================||");
 
             int pilihan = MenuUtil.getPilihan(scanner, 3);
