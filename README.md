@@ -65,4 +65,32 @@ Costumer akan diberikan list saham aktif dengan informasi; Kode saham (contoh: B
 
 Costumer dapat memilih opsi 2 untuk menjual saham milik mereka, Costumer dapat melihat saham apa saja yang sudah dimiliki dan dapat menginputkan saham yang mana dan seberapa banyak lembar saham yang akan dijual 
 
+## SBN 
+![image](https://github.com/user-attachments/assets/6db35f08-4144-4608-b1cd-bbe7339ab5d5)
+
+![image](https://github.com/user-attachments/assets/1142e89d-80cd-45cd-8894-2f7518459b1c)
+![image](https://github.com/user-attachments/assets/38a3b2a0-0191-4f90-8c7d-f400f07dd0f7)
+![image](https://github.com/user-attachments/assets/5b49510a-6e03-4426-b792-142336e92565)
+
+# Simulasi SBN
+![image](https://github.com/user-attachments/assets/f0af0426-13d7-4e3e-93b7-4f87abe410b6)
+
+# Portofolio Investasi 
+![image](https://github.com/user-attachments/assets/87fc397e-324e-4c05-b3d4-001dbb421b31)
+
+
+## Menu Admin - Saham
+![image](https://github.com/user-attachments/assets/f3006318-e8a5-4c65-8d84-45ba3211dbec)
+
+# Tambah Saham 
+![image](https://github.com/user-attachments/assets/37d84a87-531f-4ca5-a82e-114cf9086266)
+
+# Ubah Harga Saham
+![image](https://github.com/user-attachments/assets/d3e71168-70c8-4dee-a0f4-d503312efd67)
+![image](https://github.com/user-attachments/assets/c9a18470-1ddc-42b9-927f-a6b4940dfa9d)
+
+# Hapus Saham 
+![image](https://github.com/user-attachments/assets/edf47f15-731d-4ca1-9fdb-0751006c586b)
+![image](https://github.com/user-attachments/assets/57961cb4-cc24-48d3-baf0-899dbe477b1d)
+
 
