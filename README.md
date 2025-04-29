@@ -38,14 +38,17 @@ Di bawah ini merupakan tampilan antarmuka dan alur kerja sistem Investasi Saham 
 ![Image](https://github.com/user-attachments/assets/9c1cf89c-1021-4b46-9717-23a6e2141f7e)
 ![Image](https://github.com/user-attachments/assets/f97c147d-52c2-45c8-8ff1-f554f4dc9fd9)
 ![image](https://github.com/user-attachments/assets/562d85c0-443d-4d3e-a20c-e546dd5bab9f)
+
 Setelah user memilih melakukan login sebagai costumer atau pun admin, user akan diminta untuk menginputkan username dan password meereka. Dan lalu akan diarahkan ke menu selanjutnya.
 
 ## Menu Administrator 
 ![image](https://github.com/user-attachments/assets/dd5889b2-39b6-4149-be31-cb123123d2a8)
+
 Setelah melakukan login sebagai admin, maka user akan diberi pilihan opsi pada menu admin seperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka
 
 ## Menu Costumer
 ![image](https://github.com/user-attachments/assets/ba0f6538-5a59-4e80-8348-6a59e857eeb4)
+
 Setelah melakukan login sebagai costumer, maka user akan diberi pilihan opsi pada menu costumer seperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka sesuai dengan kebutuhan
 
 ## Menu Saham 
@@ -68,29 +71,44 @@ Costumer dapat memilih opsi 2 untuk menjual saham milik mereka, Costumer dapat m
 ## SBN 
 ![image](https://github.com/user-attachments/assets/6db35f08-4144-4608-b1cd-bbe7339ab5d5)
 
+Pada Menu ini user dapat melakukan pembelian surat berharga nasional selama masih ada kuota dan melakukan simulasi untuk SBN yang sudah dibeli/dimiliki oleh user.
+
 ![image](https://github.com/user-attachments/assets/1142e89d-80cd-45cd-8894-2f7518459b1c)
 ![image](https://github.com/user-attachments/assets/38a3b2a0-0191-4f90-8c7d-f400f07dd0f7)
 ![image](https://github.com/user-attachments/assets/5b49510a-6e03-4426-b792-142336e92565)
 
+pada gambar di atas juga user Admin dapat melakukan penambahan terhadap produk SBN yang ada.
+
 # Simulasi SBN
 ![image](https://github.com/user-attachments/assets/f0af0426-13d7-4e3e-93b7-4f87abe410b6)
 
+Gambar di atas merupakan contoh dari simulasi SBN yang dimiliki oleh user.
+
 # Portofolio Investasi 
 ![image](https://github.com/user-attachments/assets/87fc397e-324e-4c05-b3d4-001dbb421b31)
+
+Pada pilihan menu di atas, user dapat melihat portofolio produk investasi yang sudah dimiliki selama berjalannya program ini.
 
 
 ## Menu Admin - Saham
 ![image](https://github.com/user-attachments/assets/f3006318-e8a5-4c65-8d84-45ba3211dbec)
 
+Berikut kita akan membahas menu Saham milik user Admin. Pada menu ini user Admin akan diberikan 3 opsi aksi yaitu menambahkan produk saham yang ada di database/market, mengubah harga dari saham yang sudah ada pada database atau market guna mensimulasikan sedikit bagaimana harga produk saham di dunia nyata selalu berubah-ubah, dan yang terakhir itu merupakan opsi untuk menghapus produk saham dari database/market.
+
 # Tambah Saham 
 ![image](https://github.com/user-attachments/assets/37d84a87-531f-4ca5-a82e-114cf9086266)
+
+Gambar di atas merupakan simulasi dari penambahan saham yang dilakukan oleh user Admin. Dapat dilihat bahwa untuk menambah suatu produk saham ke dalam database/market, user Admin perlu memasukkan data terkait produk saham tersebut yaitu kode nama dari produk saham tersebut, nama dari perusahaan, dan harga awal dari saham yang akan ditambahkan.
 
 # Ubah Harga Saham
 ![image](https://github.com/user-attachments/assets/d3e71168-70c8-4dee-a0f4-d503312efd67)
 ![image](https://github.com/user-attachments/assets/c9a18470-1ddc-42b9-927f-a6b4940dfa9d)
 
+Gambar di atas merupakan contoh dari jalannya program ketika user Admin ingin mengubah harga dari produk saham yang sudah ada. User Admin akan diminta untuk memilih indeks dari produk saham yang sudah ada di dalam database/market untuk melakukan perubahan terhadap harga yang dimiliki guna mensimulasikan skenario di dunia nyata dalam skala kecil-kecilan dalam program ini.
+
 # Hapus Saham 
 ![image](https://github.com/user-attachments/assets/edf47f15-731d-4ca1-9fdb-0751006c586b)
 ![image](https://github.com/user-attachments/assets/57961cb4-cc24-48d3-baf0-899dbe477b1d)
 
+Gambar di atas merupakan menu hapus saham dimana user Admin dapat menghapus produk saham yang sudah ada.
 
