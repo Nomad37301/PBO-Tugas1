@@ -1,6 +1,6 @@
 # 📈 Sistem Investasi Saham & Surat Berharga Negara (SBN) - CLI Java
 
-Program ini adalah aplikasi simulasi investasi **Saham** dan **Surat Berharga Negara (SBN)** berbasis Command Line Interface (CLI) menggunakan **Java murni** tanpa framework eksternal.
+Hallo, selamat datang pada program kami!. Program ini adalah aplikasi simulasi investasi **Saham** dan **Surat Berharga Negara (SBN)** berbasis Command Line Interface (CLI) menggunakan **Java murni** tanpa framework eksternal.
 
 ---
 
