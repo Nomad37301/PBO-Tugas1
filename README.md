@@ -29,7 +29,7 @@ Fitur utama dari program kami adalah memberi kemampuan pada user yang memiliki 2
 - Melihat portofolio investasi
 
 # UML
-![PBO FIKS drawio](https://github.com/user-attachments/assets/f01eb260-a275-4bad-b796-d138514c37f1)
+![PBO FIKS drawio](https://github.com/user-attachments/assets/db5978d4-b497-45a5-a54a-1c2a76acd149)
 
 # Proses Penggunaan 
 Di bawah ini merupakan tampilan antarmuka dan alur kerja sistem Investasi Saham & Surat Berharga Negara (SBN), dilengkapi dengan screenshot hasil eksekusi program. 
