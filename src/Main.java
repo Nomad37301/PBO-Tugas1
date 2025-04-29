@@ -1,5 +1,3 @@
-package main;
-
 import menu.LoginMenu;
 
 public class Main {
