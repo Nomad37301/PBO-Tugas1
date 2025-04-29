@@ -31,3 +31,18 @@ Fitur utama dari program kami adalah memberi kemampuan pada user yang memiliki 2
 # UML
 ![PBO FIKS drawio](https://github.com/user-attachments/assets/f01eb260-a275-4bad-b796-d138514c37f1)
 
+# Proses Penggunaan 
+Di bawah ini merupakan tampilan antarmuka dan alur kerja sistem Investasi Saham & Surat Berharga Negara (SBN), dilengkapi dengan screenshot hasil eksekusi program. 
+
+## Login Admin dan Costumer
+![Image](https://github.com/user-attachments/assets/9c1cf89c-1021-4b46-9717-23a6e2141f7e)
+![Image](https://github.com/user-attachments/assets/f97c147d-52c2-45c8-8ff1-f554f4dc9fd9)
+![image](https://github.com/user-attachments/assets/562d85c0-443d-4d3e-a20c-e546dd5bab9f)
+
+## Menu Administrator 
+![image](https://github.com/user-attachments/assets/dd5889b2-39b6-4149-be31-cb123123d2a8)
+
+## Menu Costumer
+![image](https://github.com/user-attachments/assets/ba0f6538-5a59-4e80-8348-6a59e857eeb4)
+
+
