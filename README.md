@@ -4,6 +4,12 @@ Program ini adalah aplikasi simulasi investasi **Saham** dan **Surat Berharga Ne
 
 ---
 
+## 📚 Identitas Kami
+- ANAK AGUNG GDE PUTRA PURNAMA (2405551172)
+- Jihan Alya Qanita (NIM)
+
+---
+
 ## 🧠 Fitur Utama
 Fitur utama dari program kami adalah memberi kemampuan pada user yang memiliki 2 versi yaitu admmin dan customer untuk membeli, menjual dan menambah (khusus admin) saham maupun SBN
 
@@ -20,7 +26,8 @@ Fitur utama dari program kami adalah memberi kemampuan pada user yang memiliki 2
 - Membeli Surat Berharga Negara (SBN)
 - Melihat simulasi kupon bulanan SBN
 - Melihat portofolio investasi
-- 
+
+
 # UML
 ![PBO FIKS drawio](https://github.com/user-attachments/assets/f01eb260-a275-4bad-b796-d138514c37f1)
 
