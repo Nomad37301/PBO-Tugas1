@@ -1,13 +1,13 @@
 package service;
 
+import java.util.List;
+import java.util.Scanner;
+import menu.MenuUtil;
 import model.Customer;
 import model.Portofolio;
 import model.Saham;
 import model.SahamOwned;
 import storage.Database;
-
-import java.util.List;
-import java.util.Scanner;
 
 public class SahamService {
     public static void tambahSaham(Scanner scanner) {
@@ -30,8 +30,7 @@ public class SahamService {
         }
 
         tampilkanSaham(sahamList);
-        System.out.print("Pilih indeks saham: ");
-        int index = Integer.parseInt(scanner.nextLine());
+        int index = MenuUtil.getIntegerInput(scanner, "Pilih indeks saham: ", 1, sahamList.size());
 
         if (index < 1 || index > sahamList.size()) {
             System.out.println("Indeks tidak valid.");
@@ -54,7 +53,7 @@ public class SahamService {
 
         tampilkanSaham(sahamList);
         System.out.print("Pilih indeks saham: ");
-        int index = Integer.parseInt(scanner.nextLine());
+        int index = MenuUtil.getIntegerInput(scanner, "Pilih indeks saham: ", 1, sahamList.size());
 
         if (index < 1 || index > sahamList.size()) {
             System.out.println("Indeks tidak valid.");
@@ -87,8 +86,7 @@ public class SahamService {
                     i + 1, so.getSaham().getNamaPerusahaan(), so.getJumlah(), so.getHargaBeli());
         }
 
-        System.out.print("Pilih indeks saham: ");
-        int index = Integer.parseInt(scanner.nextLine());
+        int index = MenuUtil.getIntegerInput(scanner, "Pilih indeks saham: ", 1, list.size());
 
         if (index < 1 || index > list.size()) {
             System.out.println("Indeks tidak valid.");

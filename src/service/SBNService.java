@@ -1,13 +1,13 @@
 package service;
 
-import model.Customer;
-import model.Portofolio;
-import model.SuratBerhargaNegara;
-import model.SBNOwned;
-import storage.Database;
-
 import java.util.List;
 import java.util.Scanner;
+import menu.MenuUtil;
+import model.Customer;
+import model.Portofolio;
+import model.SBNOwned;
+import model.SuratBerhargaNegara;
+import storage.Database;
 
 public class SBNService {
     public static void tambahSBN(Scanner scanner) {
@@ -18,7 +18,7 @@ public class SBNService {
         System.out.print("Jangka Waktu (bulan): ");
         int bulan = Integer.parseInt(scanner.nextLine());
         System.out.print("Tanggal Jatuh Tempo (YYYY-MM-DD): ");
-        String tanggal = scanner.nextL  ine();
+        String tanggal = scanner.nextLine();
         System.out.print("Kuota Nasional (Rp): ");
         double kuota = Double.parseDouble(scanner.nextLine());
 
@@ -40,8 +40,7 @@ public class SBNService {
             System.out.println((i + 1) + ". " + sbnList.get(i));
         }
 
-        System.out.print("Pilih indeks SBN: ");
-        int index = Integer.parseInt(scanner.nextLine());
+        int index = MenuUtil.getIntegerInput(scanner, "Pilih indeks SBN: ", 1, sbnList.size());
 
         if (index < 1 || index > sbnList.size()) {
             System.out.println("Indeks tidak valid.");
